@@ -5,8 +5,8 @@
     <li>
       Title: <%= link.title %>
       URL:   <%= link.url   %>
-      Tag: <% link.tags.each do | tag | %>
-             <%= tag.name %>
+      Tags: <% link.tags.each do | tag | %>
+             <%= tag == link.tags.last ? tag.name : (tag.name + ',') %>
            <% end %>
     </li>
   <% end %>
