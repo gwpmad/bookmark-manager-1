@@ -1,19 +1,23 @@
-- Write User stories/features for showing a list of links
-As a User,
-So that I don't have to remember URL addresses
-I want to see a list of links
+User Stories
+-------------
+```
+As a User
+So that I can browse through my bookmarks
+I want to see a list of the links I've saved
 
-- Write User stories/features for adding new links
-As a User,
-So that I have somewhere to store my links
-I want to be able to add new links
+As a User
+So that I can quickly find web sites I recently bookmarked
+I would like to see links in descending chronological order
 
-- Write User stories/features for adding tags to links
-As a User,
-So that I can categorise my links,
-I want to be able to add tags to the links
+As a User
+So that I can save a bookmark
+I want to add the site's address and title to my list of saved links
 
-- Write User stories/features for filtering links by a tag
-As a User,
-So I can find my links easily,
-I want to be able to filter links by tag
+As a User
+So that I can easily organize my bookmarks
+I want to add one or more tags to a link
+
+As a User
+So that I can easily find a bookmark
+I want to filter links by a tag
+```
