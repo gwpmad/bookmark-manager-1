@@ -4,6 +4,6 @@ class Tag
   has n, :links, :through => Resource
 
   property :id, Serial
-  property :tags, String
+  property :name, String
 
 end

@@ -3,7 +3,7 @@ feature 'creating a link' do
     visit ('/links/new')
     fill_in('url', :with => 'www.facebook.com')
     fill_in('title', :with => 'Facebook')
-    fill_in('tags', :with => 'Social')
+    fill_in('name', :with => 'Social')
     click_button('Submit')
     expect(page).to have_content('Facebook')
   end
